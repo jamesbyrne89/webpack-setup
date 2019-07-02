@@ -1,1 +1,3 @@
-console.log('imported file works!')
+const testConst = 'this should become es5';
+
+console.log(testConst);
