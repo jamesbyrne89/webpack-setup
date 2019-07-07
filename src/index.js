@@ -1,11 +1,9 @@
 import './test';
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 
 console.log('Welcome to my webpack setup');
 
-const MyComponent = () => {
-  return <div>This is a React component!</div>;
-};
+const MyComponent = () => <div>This is a React component!</div>;
 
-render(<MyComponent />, document.getElementById('root'));
+ReactDOM.render(<MyComponent />, document.getElementById('root'));
